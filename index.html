@@ -11,14 +11,23 @@
 <style>
 
 body{
-    background-color: rgb(100,100,100);
+    background-color: rgb(255,255,255);
     margin:0;
     text-align:center;
     font-family:"M PLUS 1", sans-serif;
 }
 
-.banner{
+.header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     margin-top:40px;
+}
+
+.name{
+    color:rgb(255,51,0);
+    font-size:28px;
+    margin-right:20px;
 }
 
 .banner img{
@@ -26,14 +35,14 @@ body{
     height:128px;
 }
 
-.name{
-    color:rgb(100,20,0);
-    font-size:32px;
-    margin-top:10px;
+.title{
+    font-size:28px;
+    color:rgb(0,0,0);
+    margin-top:40px;
 }
 
 .keyvisual{
-    margin-top:40px;
+    margin-top:20px;
 }
 
 .keyvisual img{
@@ -42,7 +51,7 @@ body{
 }
 
 .links{
-    margin-top:30px;
+    margin-top:20px;
 }
 
 .links a{
@@ -50,11 +59,21 @@ body{
     font-size:28px;
     color:rgb(0,0,0);
     text-decoration:none;
-    margin:12px 0;
+    margin:10px 0;
 }
 
 .links a:hover{
     text-decoration:underline;
+}
+
+.youtube{
+    margin-top:20px;
+}
+
+.footer{
+    margin-top:40px;
+    font-size:20px;
+    color:rgb(0,0,0);
 }
 
 </style>
@@ -62,12 +81,20 @@ body{
 
 <body>
 
+<div class="header">
+
+<div class="name">
+KiitoMaru
+</div>
+
 <div class="banner">
 <img src="banner.png" alt="banner">
 </div>
 
-<div class="name">
-KiitoMaru
+</div>
+
+<div class="title">
+Arrow Bingo
 </div>
 
 <div class="keyvisual">
@@ -76,16 +103,20 @@ KiitoMaru
 
 <div class="links">
 
-<a href="#">Arrow Bingo</a>
-
-<a href="https://store.steampowered.com/app/3980490/BINGO/">Steam</a>
-
+<a href="#">Steam</a>
 <a href="#">Android</a>
-
 <a href="#">iOS</a>
 
-<a href="https://www.youtube.com/@kiitomaru">YouTube</a>
+</div>
 
+<div class="youtube">
+
+<a href="#" style="font-size:28px; color:rgb(0,0,0); text-decoration:none;">YouTube</a>
+
+</div>
+
+<div class="footer">
+(c)KiitoMaru
 </div>
 
 </body>
